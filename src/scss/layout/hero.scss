@@ -1,0 +1,58 @@
+.hero-box {
+    width: 100%;
+    height: 568px;
+    background-image: url(../images/cover.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding: 0 15px 53px 0;
+    display:flex;
+   
+}
+
+ .hero-box {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items:center;
+
+ }
+.title {
+  width: 290px;
+  height: 110px;
+  margin: 240px 0 10px 15px;
+  font-family: RobotoSlab;
+  font-size: 42px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.31;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+.hero-text {
+    width: 290px;
+    height: 21px;
+    margin: 10px 0 45px 15px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color:#ffffff
+}
+.ico-scroll {
+  width: 45px;
+  height: 45px;
+  margin: 45px 122px 0 94px;
+  padding: 18px 12px 15.3px 13px;
+  border-radius: 22.5px;
+  background-color: #ffffff;
+}
+.figure {
+    padding-left: 15%;
+}
