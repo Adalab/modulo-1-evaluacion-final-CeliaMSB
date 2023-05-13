@@ -18,6 +18,40 @@
   height: 14px;
   background-color: #0271bc; }
 
+.footer-box {
+  height: 465px;
+  padding: 60px 15px 45px;
+  background-color: #304268; }
+
+.list-1 {
+  width: 73px;
+  height: 150px;
+  margin: 0 108px 30px 109px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none; }
+
+.list-2 {
+  width: 147px;
+  height: 90px;
+  margin: 30px 71px 30px 72px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff; }
+
 .insomnia {
   width: 100%;
   height: 30px;
@@ -124,7 +158,8 @@ article p {
   margin: 45px 53px 0;
   padding: 0 29.5px 0 30.5px;
   border-radius: 22.5px;
-  background-color: #f26002; }
+  background-color: #f26002;
+  display: inline-block; }
 
 .more-reasons {
   width: 25px;
@@ -144,8 +179,6 @@ article p {
   height: 624px;
   padding: 30px 15px 60px;
   background-color: #eff9ff;
-  display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
   text-align: center; }
 
 .hero-box {
