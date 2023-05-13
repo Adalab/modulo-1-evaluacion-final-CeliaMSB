@@ -127,4 +127,16 @@ article p {
   background-color: #eff9ff;
   text-align: center; }
 
+.ico-arrow-box {
+  width: 45px;
+  height: 45px;
+  box-shadow: 0 2px 4px 0 var(--k-50);
+  background-color: #ffffff; }
+
+.ico-arrow {
+  width: 20.6px;
+  height: 24px;
+  -o-object-fit: contain;
+  object-fit: contain; }
+
 /*# sourceMappingURL=sections.css.map */

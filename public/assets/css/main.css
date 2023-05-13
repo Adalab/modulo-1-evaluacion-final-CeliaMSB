@@ -19,9 +19,15 @@
   background-color: #0271bc; }
 
 .footer-box {
-  height: 465px;
   padding: 60px 15px 45px;
-  background-color: #304268; }
+  background-color: #304268;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center; }
+
+.footer-box ul {
+  list-style: none; }
 
 .list-1 {
   width: 73px;
@@ -35,8 +41,7 @@
   line-height: 1.88;
   letter-spacing: normal;
   text-align: center;
-  color: #ffffff;
-  text-decoration: none; }
+  color: #ffffff; }
 
 .list-2 {
   width: 147px;
@@ -48,6 +53,34 @@
   font-stretch: normal;
   font-style: normal;
   line-height: 1.88;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff; }
+
+.footer {
+  width: 77px;
+  height: 30px;
+  margin: 30px 107px 0 106px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.14;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff; }
+
+.love {
+  width: 290px;
+  height: 30px;
+  margin: 60px 0 0;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  padding-bottom: 15px;
   letter-spacing: normal;
   text-align: center;
   color: #ffffff; }
@@ -181,6 +214,18 @@ article p {
   background-color: #eff9ff;
   text-align: center; }
 
+.ico-arrow-box {
+  width: 45px;
+  height: 45px;
+  box-shadow: 0 2px 4px 0 var(--k-50);
+  background-color: #ffffff; }
+
+.ico-arrow {
+  width: 20.6px;
+  height: 24px;
+  -o-object-fit: contain;
+  object-fit: contain; }
+
 .hero-box {
   width: 100%;
   height: 568px;
@@ -234,6 +279,7 @@ article p {
   background-color: #ffffff; }
 
 .figure {
-  padding-left: 10%; }
+  display: flex;
+  align-items: center; }
 
 /*# sourceMappingURL=main.css.map */
