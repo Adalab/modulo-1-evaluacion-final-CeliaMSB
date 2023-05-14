@@ -7,13 +7,21 @@
   justify-content: center;
   display:grid;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+
+  p {
+    color: $color_link
+
+    h2 {
+      color:$color_link
+    }
+   }
   }
 
 .reasons {
 height: 30px;
 margin: 0 0 45px;
 font-family: RobotoSlab;
-font-size: 20px;
+font-size: 1.25rem;
 font-weight: bold;
 font-stretch: normal;
 font-style: normal;
@@ -26,14 +34,14 @@ color: black;
 width: 184px;
 height: 30px;
 font-family: RobotoSlab;
-font-size: 18px;
+font-size: 2rem;
 font-weight: bold;
 font-stretch: normal;
 font-style: normal;
 line-height: 1.67;
 letter-spacing: normal;
 text-align: center;
-color:black;
+color:$color_link;
 
 }
 
@@ -41,14 +49,14 @@ article p {
 height: 63px;
 margin: 2px 0;
 font-family: Roboto;
-font-size: 18px;
+font-size: 1.125rem;
 font-weight: normal;
 font-stretch: normal;
 font-style: normal;
 line-height: 1.67;
 letter-spacing: normal;
 text-align: center;
-color:  #000000;
+color:$color_link;
 }
 article h2 {
 margin-top: 45px;
@@ -67,7 +75,7 @@ margin-inline-start: 20%;
 width: 25px;
 height: 45px;
 font-family: Roboto;
-font-size: 19px;
+font-size: 1.188rem;
 font-weight: 500;
 font-stretch: normal;
 font-style: normal;
@@ -90,9 +98,6 @@ margin-inline-start: 42.5%;
 position: relative;
 top: 5vh;
 z-index: 0;
-
-
-
 
 }
 .ico-arrow {

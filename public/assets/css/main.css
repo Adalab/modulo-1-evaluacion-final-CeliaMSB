@@ -5,18 +5,13 @@
 
 .header {
   width: 44px;
-  height: 44px;
+  height: 7vh;
   margin: 0 94px 240px 0;
   padding: 15px 14px;
   background-color: #0271bc;
   position: fixed;
   top: 0;
   z-index: 1; }
-
-.menu {
-  width: 16px;
-  height: 14px;
-  background-color: #0271bc; }
 
 .footer-box {
   padding: 60px 15px 45px;
@@ -25,20 +20,18 @@
   flex-direction: column;
   text-align: center;
   align-items: center; }
-
-.footer-box ul {
-  list-style: none; }
-
-.footer-box li {
-  text-decoration: none;
-  color: #ffffff; }
+  .footer-box ul {
+    list-style: none; }
+    .footer-box ul li {
+      text-decoration: none;
+      color: #ffffff; }
 
 .list-1 {
   width: 73px;
   height: 150px;
   margin: 0 108px 30px 109px;
   font-family: Roboto;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -52,7 +45,7 @@
   height: 90px;
   margin: 15px 71px 15px 72px;
   font-family: Roboto;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -66,7 +59,7 @@
   height: 30px;
   margin: 30px 107px 0 106px;
   font-family: Roboto;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -80,7 +73,7 @@
   height: 30px;
   margin: 10px 0 0;
   font-family: Roboto;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -98,12 +91,15 @@
   justify-content: center;
   display: grid;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr; }
+  .section-2 p {
+    color: black h2;
+      color-color: black; }
 
 .reasons {
   height: 30px;
   margin: 0 0 45px;
   font-family: RobotoSlab;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -116,7 +112,7 @@
   width: 184px;
   height: 30px;
   font-family: RobotoSlab;
-  font-size: 18px;
+  font-size: 2rem;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -129,14 +125,14 @@ article p {
   height: 63px;
   margin: 2px 0;
   font-family: Roboto;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.67;
   letter-spacing: normal;
   text-align: center;
-  color: #000000; }
+  color: black; }
 
 article h2 {
   margin-top: 45px; }
@@ -154,7 +150,7 @@ article h2 {
   width: 25px;
   height: 45px;
   font-family: Roboto;
-  font-size: 19px;
+  font-size: 1.188rem;
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
@@ -185,7 +181,7 @@ article h2 {
 
 .hero-box {
   width: 100%;
-  height: 568px;
+  height: 100%;
   background-image: url(../images/cover.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -202,7 +198,7 @@ article h2 {
   height: 110px;
   margin: 268px 0 10px 15px;
   font-family: RobotoSlab;
-  font-size: 42px;
+  font-size: 2.625rem;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -216,7 +212,7 @@ article h2 {
   height: 21px;
   margin: 10px 0 45px 15px;
   font-family: Roboto;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -234,7 +230,7 @@ article h2 {
 
 .figure {
   display: flex;
-  align-items: center; }
+  justify-content: center; }
 
 .columna {
   padding: 0 15px; }
@@ -243,7 +239,7 @@ article h2 {
   width: 100%;
   height: 30px;
   font-family: Roboto;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -257,7 +253,7 @@ article h2 {
 .looking {
   width: 290px;
   font-family: RobotoSlab;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -269,7 +265,7 @@ article h2 {
   width: 100%;
   margin: 15px 0 30px;
   font-family: Roboto;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -292,7 +288,7 @@ article h2 {
   width: 25px;
   height: 45px;
   font-family: Roboto;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
