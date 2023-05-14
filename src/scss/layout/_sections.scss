@@ -4,7 +4,9 @@
   padding: 30px 15px 60px;
   background-color: #eff9ff;
   text-align: center;
-  display:-ms-inline-grid
+  justify-content: center;
+  display:grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
   }
 
 .reasons {
@@ -57,7 +59,7 @@ height: 45px;
 padding: 0 29.5px 0 30.5px;
 border-radius: 22.5px;
 background-color: #f26002;
-display: inline-block;
+margin-inline-start: 20%;
 
 
 }
@@ -78,16 +80,27 @@ color:#ffffff;
 
 
 .ico-arrow-box {
-width: 45px;
-height: 45px;
+width: 50px;
+height: 50px;
+display: flex;
+justify-content: center;
 background-color:#ffffff;
+border-radius: 50%;
+margin-inline-start: 42.5%;
+position: relative;
+top: 5vh;
+z-index: 0;
+
 
 
 
 }
 .ico-arrow {
-width: 20.6px;
-height: 24px;
+width: 30px;
+//height: 24px;
 object-fit: contain;
 border-radius: 50%;
+padding-top: 40%;
+
+
 }
