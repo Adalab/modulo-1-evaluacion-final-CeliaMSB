@@ -1,153 +1,93 @@
-.columna {
-  padding: 0 15px;
-}
-.insomnia {
-    width: 100%;
-    height: 30px;
-    font-family: Roboto;
-    font-size: 14px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 2.14;
-    letter-spacing: normal;
-    color: #8ccbea;
-    display:inline-flex;
-    padding-left: 15px;
-    padding-top: 10px;
-}
-
-.looking {
-  width: 290px;
-  font-family: RobotoSlab;
-  font-size: 20px;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.25;
-  letter-spacing: normal;
-  color: black;
-
-}
-.donec {
-    width: 100%;
-    margin: 15px 0 30px;
-    font-family: Roboto;
-    font-size: 18px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.67;
-    letter-spacing: normal;
-    color: #4a4a4a;
-    display: flex;
-  }
-  .botton-go {
-  width: 76px;
-  height: 45px;
-  margin: 30px 214px 50px 0;
-  padding: 0 25px 0 26px;
-  border-radius: 22.5px;
-  border: solid 2px #f26002;
-  padding-bottom: 45px;
-  }
-  
- .go-text {
-    display: flex;
-    width: 25px;
-    height: 45px;
-    font-family: Roboto;
-    font-size: 20px;
-    font-weight: 500;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 2.25;
-    letter-spacing: normal;
-    text-align: center;
-    color: #f26002;
-    }
-  
-
-.reasons {
-  height: 30px;
-  margin: 0 0 45px;
-  font-family: RobotoSlab;
-  font-size: 20px;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.25;
-  letter-spacing: normal;
-  text-align: center;
-  color: black;
-}
-.ut.sed {
-  width: 184px;
-  height: 30px;
-  font-family: RobotoSlab;
-  font-size: 18px;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.67;
-  letter-spacing: normal;
-  text-align: center;
-  color:black;
-}
-
-article p {
-  height: 63px;
-  margin: 30px 2px 0;
-  font-family: Roboto;
-  font-size: 18px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.67;
-  letter-spacing: normal;
-  text-align: center;
-  color:  #000000;
-}
- .more-reasons-box {
-  width: 184px;
-  height: 45px;
-  margin: 45px 53px 0;
-  padding: 0 29.5px 0 30.5px;
-  border-radius: 22.5px;
-  background-color: #f26002;
-  display: inline-block;
-
-  
- }
-.more-reasons {
-  width: 25px;
-  height: 45px;
-  font-family: Roboto;
-  font-size: 19px;
-  font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 2.25;
-  letter-spacing: normal;
-  text-align: center;
-  color:#ffffff;
-}
 .section-2 {
   width: 100%;
   height: 624px;
   padding: 30px 15px 60px;
   background-color: #eff9ff;
   text-align: center;
+  display:-ms-inline-grid
+  }
+
+.reasons {
+height: 30px;
+margin: 0 0 45px;
+font-family: RobotoSlab;
+font-size: 20px;
+font-weight: bold;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.25;
+letter-spacing: normal;
+text-align: center;
+color: black;
 }
+.ut.sed {
+width: 184px;
+height: 30px;
+font-family: RobotoSlab;
+font-size: 18px;
+font-weight: bold;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.67;
+letter-spacing: normal;
+text-align: center;
+color:black;
+
+}
+
+article p {
+height: 63px;
+margin: 2px 0;
+font-family: Roboto;
+font-size: 18px;
+font-weight: normal;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.67;
+letter-spacing: normal;
+text-align: center;
+color:  #000000;
+}
+article h2 {
+margin-top: 45px;
+}
+.more-reasons-box {
+width: 184px;
+height: 45px;
+padding: 0 29.5px 0 30.5px;
+border-radius: 22.5px;
+background-color: #f26002;
+display: inline-block;
+
+
+}
+.more-reasons {
+width: 25px;
+height: 45px;
+font-family: Roboto;
+font-size: 19px;
+font-weight: 500;
+font-stretch: normal;
+font-style: normal;
+line-height: 2.25;
+letter-spacing: normal;
+text-align: center;
+color:#ffffff;
+}
+
+
+
 .ico-arrow-box {
-  width: 45px;
-  height: 45px;
- 
-  box-shadow: 0 2px 4px 0 var(--k-50);
-  background-color:#ffffff
+width: 45px;
+height: 45px;
+background-color:#ffffff;
+
+
+
 }
 .ico-arrow {
-  width: 20.6px;
-  height: 24px;
-  object-fit: contain;
+width: 20.6px;
+height: 24px;
+object-fit: contain;
+border-radius: 50%;
 }
