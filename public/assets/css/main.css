@@ -85,7 +85,9 @@
   .footer-box {
     display: flex;
     flex-direction: row;
-    justify-content: center; }
+    justify-content: center;
+    -webkit-padding-end: 20%;
+    padding-inline-end: 20%; }
     .footer-box .love {
       order: -1;
       text-align: left; }
