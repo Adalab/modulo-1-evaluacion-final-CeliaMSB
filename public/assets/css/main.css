@@ -84,8 +84,16 @@
 @media screen and (min-width: 768px) {
   .footer-box {
     display: flex;
-    flex-direction: row-reverse;
-    justify-content: center; } }
+    flex-direction: row;
+    justify-content: center; }
+    .footer-box .love {
+      order: -1;
+      text-align: left; }
+    .footer-box .list-2 {
+      order: -2;
+      text-align: left; }
+    .footer-box .list-1 {
+      text-align: left; } }
 
 .section-2 {
   width: 100%;
