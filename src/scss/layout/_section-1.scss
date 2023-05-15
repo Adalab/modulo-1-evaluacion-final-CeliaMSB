@@ -1,5 +1,5 @@
 .columna {
-    padding: 0 15px;
+    padding: 0 30px;
   }
   
   .insomnia {
@@ -20,6 +20,7 @@
   
   .looking {
     width: 290px;
+    padding-top: 10px;
     font-family: RobotoSlab;
     font-size: 1.25rem;
     font-weight: bold;
@@ -66,4 +67,11 @@
       letter-spacing: normal;
       text-align: center;
       color: #f26002;
+      }
+      @media screen and (min-width:768px) {
+        .columna {
+          padding: 0 60px;
+          width: 90%;
+          align-items: center;
+        }
       }

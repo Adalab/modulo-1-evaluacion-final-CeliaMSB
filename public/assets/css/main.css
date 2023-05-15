@@ -57,7 +57,6 @@
 .footer {
   width: 77px;
   height: 30px;
-  margin: 30px 107px 0 106px;
   font-family: Roboto;
   font-size: 0.875rem;
   font-weight: normal;
@@ -82,9 +81,15 @@
   text-align: center;
   color: #ffffff; }
 
+@media screen and (min-width: 768px) {
+  .footer-box {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center; } }
+
 .section-2 {
   width: 100%;
-  height: 624px;
+  height: 106vh;
   padding: 30px 15px 60px;
   background-color: #eff9ff;
   text-align: center;
@@ -134,7 +139,7 @@ article p {
   text-align: center;
   color: black; }
 
-article h2 {
+h2 {
   margin-top: 45px; }
 
 .more-reasons-box {
@@ -162,12 +167,12 @@ article h2 {
 .ico-arrow-box {
   width: 50px;
   height: 50px;
-  display: flex;
-  justify-content: center;
   background-color: #ffffff;
   border-radius: 50%;
   -webkit-margin-start: 42.5%;
   margin-inline-start: 42.5%;
+  display: flex;
+  justify-content: center;
   position: relative;
   top: 5vh;
   z-index: 0; }
@@ -178,6 +183,23 @@ article h2 {
   object-fit: contain;
   border-radius: 50%;
   padding-top: 40%; }
+
+@media screen and (min-width: 768px) {
+  .articles-1 {
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    -moz-column-gap: 50px;
+    column-gap: 50px;
+    justify-content: space-between; }
+  .section-2 {
+    height: 428px; }
+  .more-reasons-box {
+    margin-top: 80px;
+    -webkit-margin-start: 40%;
+    margin-inline-start: 40%; }
+  .ico-arrow-box {
+    -webkit-margin-start: 48%;
+    margin-inline-start: 48%; } }
 
 .hero-box {
   width: 100%;
@@ -232,8 +254,21 @@ article h2 {
   display: flex;
   justify-content: center; }
 
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center; }
+  .hero-text {
+    font-size: 24px;
+    width: 100%;
+    padding-top: 40px; } }
+
 .columna {
-  padding: 0 15px; }
+  padding: 0 30px; }
 
 .insomnia {
   width: 100%;
@@ -252,6 +287,7 @@ article h2 {
 
 .looking {
   width: 290px;
+  padding-top: 10px;
   font-family: RobotoSlab;
   font-size: 1.25rem;
   font-weight: bold;
@@ -296,5 +332,11 @@ article h2 {
   letter-spacing: normal;
   text-align: center;
   color: #f26002; }
+
+@media screen and (min-width: 768px) {
+  .columna {
+    padding: 0 60px;
+    width: 90%;
+    align-items: center; } }
 
 /*# sourceMappingURL=main.css.map */
