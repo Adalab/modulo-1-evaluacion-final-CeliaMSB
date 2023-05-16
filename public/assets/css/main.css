@@ -55,7 +55,6 @@
   color: #ffffff; }
 
 .footer {
-  width: 77px;
   height: 30px;
   font-family: Roboto;
   font-size: 0.875rem;
@@ -81,19 +80,22 @@
   text-align: center;
   color: #ffffff; }
 
+.heart {
+  color: #f26002;
+  font-size: 1rem; }
+
 @media screen and (min-width: 768px) {
   .footer-box {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    -webkit-padding-end: 15%;
-    padding-inline-end: 15%; }
-    .footer-box .love {
+    justify-content: space-around;
+    align-items: flex-start; }
+    .footer-box .footer {
       order: -1;
       text-align: left; }
     .footer-box .list-2 {
-      order: -2;
-      text-align: left; }
+      text-align: left;
+      margin: 0; }
     .footer-box .list-1 {
       text-align: left; } }
 
@@ -280,6 +282,12 @@ h2 {
 .columna {
   padding: 0 30px; }
 
+@media screen and (min-width: 768px) {
+  .columna {
+    padding: 0 60px;
+    width: 90%;
+    align-items: center; } }
+
 .insomnia {
   width: 100%;
   height: 30px;
@@ -342,11 +350,5 @@ h2 {
   letter-spacing: normal;
   text-align: center;
   color: #f26002; }
-
-@media screen and (min-width: 768px) {
-  .columna {
-    padding: 0 60px;
-    width: 90%;
-    align-items: center; } }
 
 /*# sourceMappingURL=main.css.map */
