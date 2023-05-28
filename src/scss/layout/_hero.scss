@@ -33,6 +33,7 @@
     width: 290px;
     height: 21px;
     margin: 10px 0 45px 15px;
+    text-transform: lowercase;
     font-family: Roboto;
     font-size: 1rem;
     font-weight: normal;
@@ -71,5 +72,13 @@
     font-size: 24px;
     width: 100%;
     padding-top: 40px;
+  }
+  .hero-box {
+    height: 800px;
+  }
+}
+@media screen and (min-width:1200px) {
+  .hero-box {
+    height: 1000px;
   }
 }

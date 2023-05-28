@@ -245,6 +245,7 @@ h2 {
   width: 290px;
   height: 21px;
   margin: 10px 0 45px 15px;
+  text-transform: lowercase;
   font-family: Roboto;
   font-size: 1rem;
   font-weight: normal;
@@ -277,7 +278,13 @@ h2 {
   .hero-text {
     font-size: 24px;
     width: 100%;
-    padding-top: 40px; } }
+    padding-top: 40px; }
+  .hero-box {
+    height: 800px; } }
+
+@media screen and (min-width: 1200px) {
+  .hero-box {
+    height: 1000px; } }
 
 .columna {
   padding: 0 30px; }
@@ -331,6 +338,7 @@ h2 {
 .botton-go {
   width: 76px;
   height: 45px;
+  background-color: white;
   margin: 30px 214px 50px 0;
   padding: 0 25px 0 26px;
   border-radius: 22.5px;
